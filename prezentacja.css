@@ -1,0 +1,168 @@
+		body{
+			margin:0;
+			padding: 0;
+			counter-reset: slide;
+		}
+		.slide{
+			border-style: solid;
+			height: 75vh;
+			width: 80%;
+			margin: 10%;
+			position: relative;
+
+		}
+		.slide:after {
+		position: absolute;
+		bottom: 0.5em;
+		right: 0.5em;
+		counter-increment: slide;
+		content: counter(slide);
+		display: block;
+		float: right;
+		margin-top: -1em;
+		height: 1.6em;
+		width: 1.6em;
+		background-color: #E9D8AD;
+		border-radius: 50%;
+		color: #fff;
+		font-size: 1.2em;
+		font-style: italic;
+		font-weight: 800;
+		text-align: center;
+		line-height: 1.4em;
+}
+		header{
+			width: 90%;
+			height: 13vh;
+
+			margin-top: 5vh;
+			margin-left: 5%;
+			margin-right: 5%;
+		}
+		article{
+			margin: auto;
+			margin-left: 4vw;
+			width: 90%;
+			height: 45vh;
+			margin-top: 5vh;
+			margin-bottom: 5vh;
+
+		}
+		.half{
+			margin-left: 8vh;
+
+			 float:left;
+			height: 45vh;
+			
+			width: 42%;
+			margin-top: 5vh;
+		}
+		.sideway{
+			width: 90%;
+			height: 20vh;
+
+			margin-top: 5vh;
+			margin-left: 5%;
+			margin-right: 5%;
+		}
+		.quarter{
+			width: 42%;
+
+			 float:left;
+			 
+			 margin-left: 8vw;
+			 height: 18vh;
+			 margin: 5vh;
+			 
+			 
+		}
+		.square{
+			
+			 float:left;
+			 
+			 margin-left: 10vh;
+			 margin-top: 5vh;
+			 width: 40vh;
+			 height:20vh;
+		}
+		.fullslide{
+			width: 96%;
+			height: 68vh;
+
+			margin: 3vh;
+		}
+		.nadglowek{
+			width: 90%;
+			height: 5vh;
+			margin: auto;
+			border-style: solid;
+			margin-bottom: 3vh: 
+			margin-top:2vh;
+
+		}
+		.podglowek{
+			border-style: solid;
+			width: 75%;
+			height: 5vh;
+			margin: auto;
+
+		}
+		.middle{
+			margin-top: 28vh;
+		}
+		.slide > *{
+			display: inline-block;
+			border-style: solid;
+		}
+		.slide{
+	
+			background-color: var(--color1);
+		}
+		header{
+
+			background-color: var(--color2);
+
+		}
+		article{
+
+			background-color: var(--color3);
+		}
+		.half{
+
+			background-color: var(--color4);
+
+		}
+		.sideway{
+
+			background-color: var(--color5);
+
+		}
+		.quarter{
+
+			background-color: var(--color6);
+
+			 
+			 
+		}
+		.square{
+			background-color: var(--color7);
+
+		}
+		.fullslide{
+
+			background-color: var(--color8);
+
+		}
+		.nadglowek{
+
+			background-color: var(--color9);
+		}
+		.podglowek{
+
+			background-color: var(--color9);
+		}
+
+		
+		
+		
+	
